@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Oswald:wght@200..700&display=swap');
+
+
+body{
+    background-color: #FFF;
+
+}
+
+
+.container {
+    
+    width: 90%;
+    margin: auto;
+    height: auto;
+}
+.container2 {
+    
+    width: 80%;
+    margin: auto;
+    height: auto;
+}
+
+.logo {
+    color: rgb(0, 81, 139);
+}
+.nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.list a {
+  text-decoration: none; 
+  color: black;
+  margin-right: 50px;
+}
+.hero{
+    display: flex;
+    align-items: center;
+}
+
+.hero-content button{
+   color: rgb(223, 231, 224);
+    border:0px;
+ padding: 10px;
+    
+    border-radius: 10px;
+    font-weight: bold;
+    background-color: rgb(0, 81, 139);
+    cursor: pointer;
+}
+
+
+.about-content button{
+   color: rgb(223, 231, 224);
+    border:0px;
+ padding: 10px;
+    
+    border-radius: 10px;
+    
+    background-color: rgb(0, 81, 139);
+    cursor: pointer;
+}
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-info{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.one {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.one p{
+    font-weight: bold;
+    font-size: 20px;
+}
+.one h3{
+    font-weight: bold;
+    font-size: 20px;
+}
+.two {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.two p{
+        font-weight: bold;
+
+    font-size: 20px;
+}
+.two h3{
+    font-weight: bold;
+    font-size: 20px;
+
+}
+.projects{
+    display: flex;
+   
+    justify-content: space-around;
+}
+.btn-project{
+   width: 25%;
+    border:0px;
+ padding: 10px;
+    
+    border-radius: 10px;
+    
+    background-color: rgb(0, 81, 139);
+    cursor: pointer;
+}
+.btn-div{
+    display: flex;
+    with: 100%;
+    justify-content: center;
+    
+}
+.rev-card{
+    margin-right: 320px;
+    width: 25%;
+    height: 200px;
+    border: 4px ;
+    background-color: rgb(0, 81, 139);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    justify-content:center;
+}
+.reviews{
+    margin-left: 340px;
+    display: flex;
+    justify-content: space-around;
+   align-items:center; ;
+}
